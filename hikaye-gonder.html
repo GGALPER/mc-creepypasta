@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hikâye Gönder | MC Creepypasta</title>
+
+<style>
+body {
+    background: #050505;
+    color: #ddd;
+    font-family: monospace;
+    padding: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: #d00000;
+    text-shadow: 0 0 10px red;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #101010;
+    border: 1px solid #550000;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    color: #ff3333;
+}
+
+input, textarea, select {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 7px;
+    padding: 12px;
+    background: #080808;
+    color: #ddd;
+    border: 1px solid #550000;
+    font-family: monospace;
+}
+
+textarea {
+    min-height: 250px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 20px;
+    padding: 13px 20px;
+    background: #180000;
+    color: #ff3333;
+    border: 1px solid red;
+    font-family: monospace;
+}
+
+button:hover {
+    background: #300000;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #ff3333;
+}
+</style>
+</head>
+
+<body>
+
+<h1>HİKÂYENİ GÖNDER</h1>
+
+<form action="https://formspree.io/f/mzebanvp" method="POST">
+
+    <label>Yazar adı</label>
+    <input type="text" name="yazar" placeholder="Örn: GG" required>
+
+    <label>Hikâye başlığı</label>
+    <input type="text" name="baslik" placeholder="Hikâyenin adı" required>
+
+    <label>Kategori</label>
+    <select name="kategori">
+        <option>Gerçek Olay</option>
+        <option>Creepypasta</option>
+        <option>Gizem</option>
+    </select>
+
+    <label>Minecraft sürümü</label>
+    <input type="text" name="surum" placeholder="Örn: Bedrock 1.21">
+
+    <label>Hikâyen</label>
+    <textarea name="hikaye" placeholder="Hikâyeni buraya yaz..." required></textarea>
+
+    <button type="submit">HİKÂYEYİ GÖNDER</button>
+
+</form>
+
+<a href="index.html">← Ana Sayfaya Dön</a>
+
+</body>
+</html>
+<form action="https://formspree.io/f/mzebanvp" method="POST">
